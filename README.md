@@ -1,0 +1,2 @@
+# RunWait
+$scriptDir = "My Test Folder" ; the folder where your file is stored (amend accordingly) $fileName = "My file i want to install.exe" ; the filename to install (amend accordingly) $switch = "/S" ; the switch, there maybe multiple switches for different things check the manufacturers website (amend accordingly) RunWait('"' &amp; $scriptDir &amp; "\" &amp; $fileName &amp; '"' &amp; " " &amp; $switch)
